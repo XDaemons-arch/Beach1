@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    color: teal;
+    
+}
+    
+form{
+    width: 600px;
+    border: 1px solid teal;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label {
+    margin-left: -8px;
+    margin-top: -15px;
+}
+button {
+    width: 50%;
+    color: white;
+    margin-top: 30px;
+    margin-left: 25%;
+    background-color: lightcoral;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+
+}
+h3 {
+    color: teal;
+    
+}

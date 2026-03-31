@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Surabaya Bussines Event Registration</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+<form action="form_1.html" method="POST">
+    <center>
+    <h3>Registrasi Peserta Event Bisnis</h3>
+    </center>
+    Nama<br>
+    <input type="text" name="Nama" ><br>
+
+    Jenis Kelamin<br> 
+        <input type="radio" name="jenis_kelamin" value="pria"  
+               id="radio_jk_pria"> 
+        <label for="radio_jk_pria">Pria</label>
+        <input type="radio" name="jenis_kelamin" value="Wanita"  
+               id="radio_jk_Wanita"> 
+        <label for="radio_jk_Wanita">Wanita</label>
+        <br>
+
+    Apakah Anda Mempunyai Bisnis<br> 
+        <input type="radio" name="Bisnis" value="Iya"  
+               id="radio_jk_Iya"> 
+        <label for="radio_jk_Iya">Iya</label>
+        <input type="radio" name="jenis_kelamin" value="Tidak"  
+               id="radio_jk_Tidak"> 
+        <label for="radio_jk_Tidak">Tidak</label>
+        <br>
+
+    Umur<br> 
+    <input type="number" umur="Umur"><br>
+
+    Email<br>
+    <input type="text" name="Email" id="textbox_email" ><br>
+
+    <label for="select_pendidikan">Pendidikan Terakhir</label> <br> 
+        <select name="pendidikan" id="select_pendidikan"  
+                multiple="multiple"> 
+            <option value="sd">Sekolah Dasar</option> 
+            <option value="smp">Sekolah Menengah Pertama</option> 
+            <option value="sma">Sekolah Menengah Atas</option> 
+            <option value="kuliah">Kuliah</option> 
+        </select> 
+
+    <br><br>
+    <button type ="submit">Daftar</button> 
+</form>    
+</body>
+</html>
